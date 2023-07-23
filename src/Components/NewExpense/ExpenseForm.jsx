@@ -4,16 +4,17 @@ import './ExpenseForm.css';
 
 export default function ExpenseForm(){
     const [enteredTitle, setEnteredTitle] = useState('');
+    const [enteredAmount, setEnteredAmount] = useState('');
+    const [enteredDate, setEnteredDate] = useState('');
+
     const titleChangeHandler = (e) => {
         setEnteredTitle(e.target.value);
     };
 
-    const [enteredAmount, setEnteredAmount] = useState('');
     const amountChangeHandler = (e) => {
         setEnteredAmount(e.target.value);
     }
 
-    const [enteredDate, setEnteredDate] = useState('');
     const dateChangeHandler = (e) => {
         setEnteredDate(e.target.value);
     }
