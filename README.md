@@ -1,2 +1,3 @@
 # React-Pratice
-Projeto feito com react para prática no uso de states.
+
+Mini projeto feito com React js com objetivo da prática no uso de States.
